@@ -1,2 +1,4 @@
 # Data-Science-Project
-Explore my diverse collection of projects showcasing machine learning, data analysis, and more. Organized by project, each directory contains code, datasets, documentation, and resources. Dive in to discover insights and techniques in data science. Reach out for collaborations and feedback.
+![image](https://github.com/Milkyy-way/Data-Science-Project/assets/97390971/54e3d882-92cb-4a51-9d4c-87f1a654ef28)
+
+ Welcome to my Data Science Projects Repository! This repository contains a collection of my data science projects, showcasing my skills and expertise in the field. Each project demonstrates different aspects of data analysis, machine learning, and visualization.

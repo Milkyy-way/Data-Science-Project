@@ -36,3 +36,8 @@ The threat column and the fleeing column are not necessarily related. For exampl
 ##### body_camera: News reports have indicated an officer was wearing a body camera and it may have recorded some portion of the incident.
 ##### latitude and longitude: the location of the shooting expressed as WGS84 coordinates, geocoded from addresses. The coordinates are rounded to 3 decimal places, meaning they have a precision of about 80-100 meters within the contiguous U.S.
 ##### is_geocoding_exact: reflects the accuracy of the coordinates. true means that the coordinates are for the location of the shooting (within approximately 100 meters), while false means that coordinates are for the centroid of a larger region, such as the city or county where the shooting happened.
+
+# Result
+### 1) There are 4077 people who were dangerous to police in whole USA.
+### 2) Three states were having maximum criminals California, Arizona, Colorodo in which California and Arizona showed uniform distribution and Colorodo has lot of outliners and densed in the center.
+### 3) Age group who are most responsible in these states are between 24 to 50 age group

@@ -33,7 +33,7 @@ for subreddit_name in subreddit_names:
                 post_title = post.title
                 post_body = post.selftext
 
-                # Load all comments
+                
                 post.comments.replace_more(limit=0)  # Avoid pagination issues
 
                 # Extract comments

@@ -50,18 +50,26 @@ Replace the 'XXXXXXXXXXXXXXX' keys with your own keys
 - Printed the personalized messages for verification and validation.
 
 # Why used hugging face
-1) It is recommend to train a proven, context-aware NLP model 
-2) carbon footprint and compute costs can be reduced 
-3) I have used Hugging face it provides the largest collection of models and datasets publicly available, including over 27,000 models shared by the AI community.
-4) I am using nlptown/bert-base-multilingual-uncased-sentiment whcih is bert-base-multilingual-uncased model finetuned for sentiment analysis. This will give the output form 1(worst) to 5(best)
+1) It is recommend to use NLP model which is well trained
+2) By using trained model, carbon footprint and compute costs can be reduced 
+3) Used Hugging face it provides the largest collection of models and datasets publicly available, including over 27,000 models shared by the AI community.
+4) Used nlptown/bert-base-multilingual-uncased-sentiment whcih is bert-base-multilingual-uncased model finetuned for sentiment analysis. This will give the output form 1(worst) to 5(best)
 
 
 # Challenges
-- My first challenge was exploring the PRAW API. It wasn't too difficult to understand because I'm familiar with working with APIs.
+- My first challenge was exploring the PRAW API because I have never used it. It wasn't too difficult to understand because I have worked with other APIs.
 - One challenge was deciding which data to extract to ensure relevance. Should I extract all posts or only select a few? Should I focus on 'hot,' 'new,' or 'top' posts? Should I limit extraction to a single subreddit or use multiple subreddits? Would it be helpful to use Natural Language Processing (NLP) to identify relevant posts and comments?
 - Choosing the right sentiment analysis model was another challenge. Should I train a new model, or should I use an existing one?
+- Framing the received response and storing it in the corresponding row of the same DataFrame was quite difficult
 - Providing my credit card details to use OpenAI was more of an issue than a challenge.
 
+# How I overcame
+- Went through the document of PRAW API.
+- Initially, I applied one keyword to a single subreddit. Then, I created a list to pass multiple keywords to extract posts more relevant to health and medical trials. Later, I thought it would be useful to cover multiple subreddits, so I created another list. This way, I could cover multiple subreddits and use any number of keywords for more effective filtering.
+- I debugged the error, revisited the workflow to understand it better, and learned the basic concept of sentiment analysis through a LinkedIn article.
 
 # Data collection
+- All the data are colledted in CSV formate.
+- For each stage new CSV file has been stored so that we can trace the record 
+- Inside the data folder you will get all the three files
  

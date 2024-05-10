@@ -18,17 +18,6 @@ Replace the 'XXXXXXXXXXXXXXX' keys with your own keys
 - `sentiment_analysis.py` to analyze sentiment and add scores.
 - `personalized_messages.py` to generate personalized messages for users who has high scores of 4 and 5.
 
-
-
-
-# ethically scraping
-1) Included restrictions by taking 1st 5 new post whcih satisfy the rate limit
-2) Exception handler is implemented so that it will not create the issue to reddit server.
-3) Did not shared personally identifiable information
-4) Used a unique user agent when interacting with the Data APIs
-5) Sticked to the plan of extracting post and comments and avoid the scraping that could be disruptive or harm the Reddit community
-
-
 # Methodology
 ### Data Collection from Reddit:
 - Used PRAW (Python Reddit API Wrapper) to fetch Reddit posts and comments from specific subreddits.
@@ -68,8 +57,19 @@ Replace the 'XXXXXXXXXXXXXXX' keys with your own keys
 - Initially, I applied one keyword to a single subreddit. Then, I created a list to pass multiple keywords to extract posts more relevant to health and medical trials. Later, I thought it would be useful to cover multiple subreddits, so I created another list. This way, I could cover multiple subreddits and use any number of keywords for more effective filtering.
 - I debugged the error, revisited the workflow to understand it better, and learned the basic concept of sentiment analysis through a LinkedIn article.
 
-# Data collection
+### Data Collection
 - All the data are colledted in CSV formate.
 - For each stage new CSV file has been stored so that we can trace the record 
 - Inside the data folder you will get all the three files
- 
+### Analysis Performed
+- Check the 'scores.csv' file; the last column contains the final results from the sentiment analysis.
+### Messages Generated
+- Check the 'personalized_messages.csv' file; the last column contains the final results from the messages generated.
+
+# Ethical Considerations
+1) Included restrictions by taking 1st 5 new post whcih satisfy the rate limit
+2) Exception handler is implemented so that it will not create the issue to reddit server.
+3) Did not shared personally identifiable information
+4) Used a unique user agent when interacting with the Data APIs
+5) Sticked to the plan of extracting post and comments and avoid the scraping that could be disruptive or harm the Reddit community
+

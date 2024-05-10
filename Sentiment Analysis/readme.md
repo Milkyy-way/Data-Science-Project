@@ -2,9 +2,9 @@ This project extracts Reddit data, performs sentiment analysis, and generates pe
 
 
 # Create a virtual environment for best practice
-python -m venv myenv
-source myenv/bin/activate  # For MacOS/Linux
-myenv\Scripts\activate     # For Windows
+- python -m venv myenv
+- source myenv/bin/activate  # For MacOS/Linux
+- myenv\Scripts\activate     # For Windows
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
